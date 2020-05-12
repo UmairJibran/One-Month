@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>DOM</title>
+    <script src="lenght.js"></script>
 </head>
 
 <body>
@@ -18,15 +19,14 @@
             sukye.style.display = 'block';
             singaye.style.display = 'none';
             khabara.innerHTML = "bs marh kegam";
+            // countLetters(khabara);
         });
         sukye.addEventListener('click', function () {
             singaye.style.display = 'block';
             sukye.style.display = 'none';
             khabara.innerHTML = "Hello friends zama num day Nasir Khan Jan";
         });
-    </script>
-    <script src="lenght.js">
-        countLetters(khabara);
+        countLetters("khabara");
     </script>
     <!-- <script src="add.js"></script> -->
 </body>
