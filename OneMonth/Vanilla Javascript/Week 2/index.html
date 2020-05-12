@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>DOM</title>
+</head>
+
+<body>
+    <h1 id="staremashe">Hello friends zama num day Nasir Khan Jan</h1>
+    <a href="#" id="sukye" style="display:none;">Tasu Suk ye?</a>
+    <a href="#" id="singaye">Model Saeb Tasu singa ye?</a>
+    <script>
+        var singaye = document.getElementById('singaye');
+        var sukye = document.getElementById('sukye');
+        var khabara = document.getElementById('staremashe');
+        singaye.addEventListener('click', function () {
+            sukye.style.display = 'block';
+            singaye.style.display = 'none';
+            khabara.innerHTML = "bs marh kegam";
+        });
+        sukye.addEventListener('click', function () {
+            singaye.style.display = 'block';
+            sukye.style.display = 'none';
+            khabara.innerHTML = "Hello friends zama num day Nasir Khan Jan";
+        });
+    </script>
+    <script src="lenght.js">
+        countLetters(khabara);
+    </script>
+    <!-- <script src="add.js"></script> -->
+</body>
+
+</html>
