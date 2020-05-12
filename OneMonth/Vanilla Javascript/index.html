@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nasir Khan Jan &lt;3 </title>
+    <style>
+        /* Basic CSS comment */
+        body {
+            background: #BBB;
+            color: white;
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 80px;
+            color: #333;
+        }
+    </style>
+    <script>
+        // alert('what the fuck');
+        var user = prompt('Khpal num uleeka');
+        var celeb = new Array('Nasir Khan Jan', 'Khan Baba', 'Marvi Sarmad');
+        if (user == null) {
+            document.writeln("Yara nu pa khabara na pwege?");
+        }
+        userLowerCase = user.toLowerCase();
+        if (userLowerCase === 'umair' || userLowerCase === 'jibran' || userLowerCase === 'umair jibran' ||
+            userLowerCase === 'omair' || userLowerCase === 'omair jibran') {
+            var randomCeleb = Math.floor(Math.random() * celeb.length);
+            document.writeln("<h2>Pakhair " + user + ", Umbarak sha " + celeb[randomCeleb] + " sta shu</h2>")
+        } else {
+            document.writeln("<h2>Pakhair " + user + "!</h2>")
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
