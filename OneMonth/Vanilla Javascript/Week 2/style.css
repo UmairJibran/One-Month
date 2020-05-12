@@ -1,0 +1,21 @@
+#outerBox {
+    /* position: absolute; */
+    left: 25px;
+    top: 30px;
+    width: 340px;
+    height: 320px;
+    border: 1px solid grey;
+    overflow-y: scroll;
+    scrollbar-width: 2px;
+    scrollbar-face-color: black;
+    scrollbar-base-color: black;
+    scroll-behavior: smooth;
+}
+
+.imageBox {
+    float: left;
+    height: 160px;
+    width: 160px;
+    margin: 10px auto;
+    background: url("http://placekitten.com/g/160/160") no-repeat;
+}
