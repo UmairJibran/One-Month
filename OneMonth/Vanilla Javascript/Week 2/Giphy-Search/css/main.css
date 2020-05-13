@@ -32,7 +32,7 @@ body {
     background-color: beige;
 }
 
-.image {
+.image-box {
     width: 22%;
     display: block;
     float: left;
@@ -197,4 +197,31 @@ body {
 
 .ml50 {
     margin-left: 50px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .image-box {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    .image-box {
+        width: 50%;
+        float: left;
+        margin: 0;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .image-box {
+        width: 30%;
+        float: left;
+        margin: 0;
+        display: block;
+    }
 }
