@@ -32,7 +32,6 @@ strong {
 
 header .logo {
     display: block;
-    margin: 1rem 0 1rem 1rem;
 }
 
 header .hero-image {
@@ -50,6 +49,11 @@ header .hero-image {
     text-decoration: none;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /*
     *Section Styles
 */
@@ -59,8 +63,6 @@ header .hero-image {
 
 .gray {
     background-color: #7772;
-    /* width: 80%; */
-    padding: 0 10% 0 10%;
 }
 
 /*
@@ -85,21 +87,22 @@ header .hero-image {
     *Pet Styles
 */
 
-.profile .pet-name {
+.pet-details .pet-name {
     font-size: 1.6rem;
 }
 
-.profile .pet-location {
+.pet-details .pet-location {
     font-size: 1.1rem;
 }
 
-.qualities {
+.pet-details {
     text-align: center;
     display: block;
 }
 
-.qualities .quality {
+.pet-details .quality {
     display: inline-block;
+    width: 30%;
 }
 
 .booking {
@@ -124,7 +127,7 @@ header .hero-image {
     padding: 0.75rem 5rem;
     border-bottom: 1px solid rgb(227, 25, 29);
     border-radius: 2px;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 

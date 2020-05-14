@@ -1,0 +1,38 @@
+.container {
+    width: 1000px;
+}
+
+.float-left {
+    float: left;
+}
+
+.white {
+    height: 200px;
+}
+
+.profile {
+    width: 30%;
+}
+
+.pet-details {
+    width: 40%;
+}
+
+.booking {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact {
+    text-align: left;
+}
+
+.gallery {
+    display: block;
+    width: 100%;
+}
+
+.gallery .more-images {
+    display: inline-block;
+    width: 33%;
+}
