@@ -26,6 +26,15 @@ strong {
     font-weight: 700;
 }
 
+.division {
+    height: 1px;
+    width: 80%;
+    background-color: #0001;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*
     *Header Style
 */

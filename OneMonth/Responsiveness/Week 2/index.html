@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style/lightbox.css">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/spaces.css">
     <link rel="stylesheet" href="style/master.css">
@@ -50,8 +51,7 @@
             </section>
         </section>
         <section class="gray">
-            <hr>
-            <div class="mt-5 about-pet">
+            <div class="pt-1 about-pet">
                 <h3 class="mb-5 mt-5">About this Dog</h3>
                 <p class="details pl-5 pr-5">The Golden Retriever is a large-sized breed of dog bred as gun dogs to
                     retrieve shot
@@ -66,7 +66,7 @@
                     Fetch Fetch </p>
                 <h4 class="mt-5 mb-5 pl-5 contact"><a href="#">Contact Owner</a></h4>
             </div>
-            <hr>
+            <div class="division"></div>
             <div class="specifications mt-2 pl-3">
                 <h5 class="mb-2">Care</h5>
                 <p>Diet: <strong>Dog Food</strong></p>
@@ -74,7 +74,7 @@
                 <p>Check in: <strong>8:00 AM</strong> or <strong>1:00 PM</strong></p>
                 <p>Check out: <strong>12:00 PM</strong> or <strong>5:00 PM</strong></p>
             </div>
-            <hr>
+            <div class="division"></div>
             <div class="entertainment pl-3">
                 <h5>Games</h5>
                 <span class="game"><img src="assets/icons/frisbee.svg" alt="A Frisbee">
@@ -87,14 +87,17 @@
                     <p>Fetch</p>
                 </span>
             </div>
-            <hr>
             <div class="gallery float-left">
-                <img src="assets/images/dog-1.jpg" alt="More Images" class="more-images mt-2">
-                <img src="assets/images/dog-2.jpg" alt="More Images" class="more-images mt-2">
-                <img src="assets/images/dog-3.jpg" alt="More Images" class="more-images mt-2">
+                <a href="assets/images/dog-1.jpg" data-lightbox="roadtrip"><img src="assets/images/dog-1.jpg"
+                        alt="More Images" class="more-images mt-2"></a>
+                <a href="assets/images/dog-2.jpg" data-lightbox="roadtrip">
+                    <img src="assets/images/dog-2.jpg" alt="More Images" class="more-images mt-2"></a>
+                <a href="assets/images/dog-3.jpg" data-lightbox="roadtrip">
+                    <img src="assets/images/dog-3.jpg" alt="More Images" class="more-images mt-2"></a>
             </div>
         </section>
     </div>
+    <script src="js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>

@@ -20,7 +20,11 @@
 
 .booking {
     width: 30%;
+    height: 100%;
     margin: 0 auto;
+    padding-top: 5%;
+    border-left: 1px solid #0001;
+    padding-left: 10px;
 }
 
 .contact {
