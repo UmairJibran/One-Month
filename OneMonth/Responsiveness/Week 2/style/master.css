@@ -27,6 +27,7 @@ strong {
 }
 
 .division {
+    display: block;
     height: 1px;
     width: 80%;
     background-color: rgba(167, 167, 167, 0.363);

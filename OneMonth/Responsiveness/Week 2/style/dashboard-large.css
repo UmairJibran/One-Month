@@ -1,0 +1,93 @@
+.container {
+    width: 1000px;
+}
+
+.banner {
+    display: block;
+    background-color: rgb(110, 233, 233);
+    margin-top: 30px;
+    height: 150px;
+}
+
+.banner .dollar {
+    width: 200px;
+    float: left;
+    padding-left: 80px;
+}
+
+.banner .dollar img {
+    height: 100px;
+}
+
+.banner .det {
+    width: 500px;
+    float: left;
+}
+
+.banner .det h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.banner .det p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+/*
+    *Profile Style
+*/
+
+.profile {
+    width: 250px;
+    float: left;
+}
+
+/*
+    *Rest of the stuff
+*/
+
+.rest {
+    width: 700px;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 20px;
+}
+
+.rest .messages .single-message {
+    width: 650px;
+    /* display: block; */
+}
+
+.rest .messages .single-message .info {
+    width: 150px;
+    height: 100%;
+    float: left;
+    padding-left: 5%;
+    /* display: inline-block; */
+}
+
+.rest .messages .single-message .info .user-image {
+    width: 50%;
+    float: left;
+}
+
+.rest .messages .single-message .info .name {
+    display: block;
+}
+
+.rest .messages .single-message .message-body {
+    width: 350px;
+    height: 100%;
+    float: left;
+    padding-left: 5%;
+    /* display: inline-block; */
+}
+
+.rest .messages .single-message .offer {
+    width: 150px;
+    height: 100%;
+    padding-left: 5%;
+    float: left;
+    /* display: inline-block; */
+}
