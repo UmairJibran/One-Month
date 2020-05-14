@@ -2,6 +2,34 @@
     width: 1000px;
 }
 
+header {
+    height: 60px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+    display: block;
+}
+
+.nav .link {
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    padding-top: 22px;
+    width: 80px;
+    border-left: 1px solid black;
+}
+
+
+.nav .link:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
 .banner {
     display: block;
     background-color: rgb(110, 233, 233);
@@ -56,38 +84,38 @@
 
 .rest .messages .single-message {
     width: 650px;
-    /* display: block; */
+    display: block;
 }
 
 .rest .messages .single-message .info {
     width: 150px;
     height: 100%;
-    float: left;
     padding-left: 5%;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .rest .messages .single-message .info .user-image {
-    width: 50%;
-    float: left;
+    width: 60%;
+    display: inline-block;
+    /* float: left; */
 }
 
-.rest .messages .single-message .info .name {
-    display: block;
+.rest .messages .single-message .info .name-and-date {
+    width: 35%;
+    display: inline-block;
+    align-self: start;
 }
 
 .rest .messages .single-message .message-body {
-    width: 350px;
+    width: 330px;
     height: 100%;
-    float: left;
     padding-left: 5%;
-    /* display: inline-block; */
+    display: inline-block;
 }
 
 .rest .messages .single-message .offer {
     width: 150px;
     height: 100%;
     padding-left: 5%;
-    float: left;
-    /* display: inline-block; */
+    display: inline-block;
 }
