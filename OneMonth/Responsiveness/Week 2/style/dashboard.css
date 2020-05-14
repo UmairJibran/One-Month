@@ -1,0 +1,117 @@
+/*
+    *General Styles
+*/
+body {
+    background: rgb(245, 245, 245);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*
+    *Header
+*/
+
+header {
+    background-color: white;
+}
+
+header .logo {
+    border-right: 1px solid rgb(135, 109, 214);
+}
+
+/*
+    *Profile
+*/
+
+.profile {
+    background-color: white;
+    border: 1px solid rgb(203, 219, 208);
+    width: 100%;
+}
+
+.profile .owner-image {
+    width: 100%;
+    border-radius: 0;
+}
+
+.profile h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 800;
+}
+
+.profile h4 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/*
+    *Notifications
+*/
+
+.notifications {
+    border: 1px solid rgb(203, 219, 208);
+}
+
+.notifications h4 {
+    font-size: 1rem;
+    background-color: rgb(203, 201, 209);
+    padding: 4% 0 4% 4%;
+    color: black;
+    font-weight: 600;
+}
+
+.notifications .empha {
+    padding: 3%;
+    color: red;
+}
+
+.notifications .empha a:hover {
+    text-decoration: underline;
+}
+
+/*
+    *Messages
+*/
+
+.messages {
+    border: 1px solid rgb(203, 219, 208);
+    padding: 3%;
+}
+
+.messages .single-message img {
+    border-radius: 100%;
+    width: 25%;
+    margin: 10% 0;
+}
+
+.messages .single-message .info .name,
+.messages .single-message .info .date {
+    padding-bottom: 3%;
+}
+
+.messages .single-message p {
+    line-height: 1.3rem;
+    display: block;
+}
+
+.messages .single-message .status {
+    size: 1.1rem;
+    font-weight: bold;
+    display: block;
+}
+
+.messages .single-message .accepted {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: green;
+}
+
+.messages .single-message .declined {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: red;
+}

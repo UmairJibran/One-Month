@@ -29,7 +29,7 @@ strong {
 .division {
     height: 1px;
     width: 80%;
-    background-color: #0001;
+    background-color: rgba(167, 167, 167, 0.363);
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -98,15 +98,18 @@ header .hero-image {
 
 .pet-details .pet-name {
     font-size: 1.6rem;
+    line-height: 2rem;
 }
 
 .pet-details .pet-location {
     font-size: 1.1rem;
+    line-height: 2rem;
 }
 
 .pet-details {
     text-align: center;
     display: block;
+    line-height: 1rem;
 }
 
 .pet-details .quality {
