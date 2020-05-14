@@ -1,0 +1,187 @@
+/*
+    *General Style
+*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    color: rgb(86, 90, 92);
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/*
+    *Header Style
+*/
+
+header .logo {
+    display: block;
+    margin: 1rem 0 1rem 1rem;
+}
+
+header .hero-image {
+    width: 100%;
+    display: block;
+}
+
+/*
+    * Don't know about this one
+*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    text-decoration: none;
+}
+
+/*
+    *Section Styles
+*/
+.white {
+    background-color: white;
+}
+
+.gray {
+    background-color: #7772;
+    /* width: 80%; */
+    padding: 0 10% 0 10%;
+}
+
+/*
+    *Owner Profile Styles
+*/
+
+.profile {
+    text-align: center;
+}
+
+.profile .owner-image {
+    width: 20%;
+    border-radius: 100%;
+}
+
+.profile .title,
+.profile .owner-name {
+    font-size: 1rem;
+}
+
+/*
+    *Pet Styles
+*/
+
+.profile .pet-name {
+    font-size: 1.6rem;
+}
+
+.profile .pet-location {
+    font-size: 1.1rem;
+}
+
+.qualities {
+    text-align: center;
+    display: block;
+}
+
+.qualities .quality {
+    display: inline-block;
+}
+
+.booking {
+    text-align: center;
+}
+
+.booking .price {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.booking .price big {
+    font-size: 1.4rem;
+}
+
+.button {
+    background-color: rgb(225, 89, 95);
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    display: block;
+    padding: 0.75rem 5rem;
+    border-bottom: 1px solid rgb(227, 25, 29);
+    border-radius: 2px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*
+    *Details
+*/
+
+.about-pet {
+    text-align: center;
+}
+
+.about-pet h3 {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.about-pet .details {
+    text-align: justify;
+    line-height: 1.2rem;
+    font-weight: 500;
+}
+
+.about-pet h4 {
+    color: red;
+    font-weight: 800;
+}
+
+.gray .specifications {
+    line-height: 1.3rem;
+}
+
+.gray .specifications h5 {
+    font-size: 1.2rem;
+}
+
+.gray .specifications p {
+    font-size: 1rem;
+}
+
+.gray .entertainment {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.gray .entertainment h5 {
+    font-weight: 800;
+}
+
+.gray .entertainment .game {
+    display: block;
+}
+
+.gray .entertainment .game p {
+    display: inline;
+    line-height: 2rem;
+}
+
+.gray .more-images {
+    width: 100%;
+}
