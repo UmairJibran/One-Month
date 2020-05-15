@@ -1,0 +1,44 @@
+header {
+    height: 60px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-drawer {
+    float: right;
+    display: block;
+}
+
+.nav-drawer .drawer {
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.nav-drawer .drawer:hover {
+    color: rgba(138, 24, 24, 0.356);
+}
+
+#bottom-navigation {
+    display: block;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+#bottom-navigation li {
+    padding: 2% 5%;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-bottom: 2px;
+}
+
+#bottom-navigation li:hover {
+    color: black;
+    background-color: white;
+}

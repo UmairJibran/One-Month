@@ -10,7 +10,8 @@ body {
     margin: 0 auto;
 }
 
-.nav {
+.nav,
+#bottom-navigation {
     display: none;
 }
 

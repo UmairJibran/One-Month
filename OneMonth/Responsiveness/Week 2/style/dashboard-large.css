@@ -15,6 +15,10 @@ header {
     display: block;
 }
 
+.drawer {
+    display: none;
+}
+
 .nav .link {
     display: inline-block;
     height: 60px;
@@ -67,7 +71,7 @@ header {
 */
 
 .profile {
-    width: 250px;
+    width: 280px;
     float: left;
 }
 
